@@ -1,4 +1,7 @@
 # python-template
+
+[![CI](https://github.com/maxmouchet/python-template/workflows/CI/badge.svg)](https://github.com/maxmouchet/python-template/actions?query=workflow%3ACI)
+
 Repository template for my Python projects.
 
 - Badges
@@ -6,7 +9,7 @@ Repository template for my Python projects.
 
 ```bash
 mv template myproject
-sed -i 's/template/myproject/g' {**/*.py,pyproject.toml}
+sed -i 's/template/myproject/g' {**/*.py,*.md,*.toml}
 ```
 
 ```bash
