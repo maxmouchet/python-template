@@ -3,6 +3,8 @@
 [![CI][ci-badge]][ci-url]
 [![codecov][cov-badge]][cov-url]
 
+Minimal, _opinionated_, Python package template: [poetry](https://github.com/python-poetry/poetry) + [pytest](https://github.com/pytest-dev/pytest) + [pre-commit](https://github.com/pre-commit/pre-commit) ([black](https://github.com/psf/black), [isort](https://github.com/timothycrosley/isort), [pylint](https://github.com/PyCQA/pylint)).
+
 ```bash
 mv template myproject
 sed -i 's/template/myproject/g' {**/*.py,*.md,*.toml}
