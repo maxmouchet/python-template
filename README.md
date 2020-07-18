@@ -7,7 +7,7 @@ Minimal, _opinionated_, Python package template: [poetry](https://github.com/pyt
 
 ```bash
 mv template myproject
-sed -i 's/template/myproject/g' {**/*.py,*.md,*.toml}
+sed -Ei 's/(python-)?template/myproject/g' {**/*.py,*.md,*.toml}
 ```
 
 ```bash
