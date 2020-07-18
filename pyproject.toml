@@ -10,13 +10,10 @@ python = "^3.7"
 
 [tool.poetry.dev-dependencies]
 pre-commit = "^2.6.0"
-# TODO: Update to PyPI version when v6.0 is released.
-# pytest = "^6.0.0"
 pytest = {git = "https://github.com/pytest-dev/pytest.git", rev = "6.0.0rc1"}
 pytest-cov = "^2.10.0"
 
 [tool.pytest.ini_options]
-# minversion = "6.0"
 addopts = "--cov=template --cov-report=xml"
 
 [build-system]
