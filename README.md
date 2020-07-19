@@ -3,7 +3,7 @@
 [![CI][ci-badge]][ci-url]
 [![codecov][cov-badge]][cov-url]
 
-Minimal, _opinionated_, Python package template: [poetry](https://github.com/python-poetry/poetry) + [pytest](https://github.com/pytest-dev/pytest) + [pre-commit](https://github.com/pre-commit/pre-commit) ([black](https://github.com/psf/black), [isort](https://github.com/timothycrosley/isort), [pylint](https://github.com/PyCQA/pylint)).
+_Minimal_, _opinionated_, Python package template: [poetry](https://github.com/python-poetry/poetry) + [pytest](https://github.com/pytest-dev/pytest) + [pre-commit](https://github.com/pre-commit/pre-commit) ([black](https://github.com/psf/black), [isort](https://github.com/timothycrosley/isort), [pylint](https://github.com/PyCQA/pylint)) + [sphinx](https://github.com/sphinx-doc/sphinx/).
 
 1. Rename `template/` directory to the module name.
 2. Edit `pyproject.toml`, `docs/conf.py` and `README.md`.
